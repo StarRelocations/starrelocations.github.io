@@ -1,0 +1,26 @@
+{
+  "name": "Star Relocations",
+  "version": "0.0.0",
+  "homepage": "https://github.com/StarRelocations/starrelocations.github.io",
+  "authors": [
+    "Max Mumford <maxmumford@gmail.com>"
+  ],
+  "description": "desc",
+  "main": "file",
+  "keywords": [
+    "keywords"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "latest",
+    "jquery": "latest"
+  }
+}
