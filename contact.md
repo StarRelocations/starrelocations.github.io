@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 <div class="narrow">
-    <form action="//formspree.io/info@starrelocations.co.uk" method="POST" id="contact">
+    <form action="//formspree.io/{{ site.email }}" method="POST" id="contact">
         <input type="hidden" name="_next" value="{{site.url}}/thanks" />
         <input type="text" name="_gotcha" style="display:none" />
 
