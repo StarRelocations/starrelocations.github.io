@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  {% include head.html %}
+	{% include head.html %}
 
-  <body>
+	<body>
 
-    {% include header.html %}
+		<div id="wrapper">
 
-    <div id="content">
-        {{ content }}
-    </div>
+			{% include header.html %}
 
-    {% include footer.html %}
+			<div class="jumbotron">
+				<h1>{{ site.jumbotron_1 }}</h1>
+				<h1>{{ site.jumbotron_2 }}</h1>
+			</div>
 
-  </body>
+			<div id="banner">
+				<img src="{{ site.banner_src }}" />
+			</div>
+
+			<div id="content">
+				{{ content }}
+			</div>
+
+			{% include footer.html %}
+			{% include footer_scripts.html %}
+
+		</div>
+
+	</body>
 
 </html>

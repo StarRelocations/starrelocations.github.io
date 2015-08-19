@@ -79,12 +79,66 @@ a {
     color: $link-color;
     text-decoration: none;
 
-    &:visited {
-        color: darken($link-color, 15%);
-    }
-
-    &:hover {
-        color: $text-color;
+    &:hover, &:visited, &:active {
+        color: $link-color;
         text-decoration: underline;
     }
 }
+
+
+/**
+ * Buttons
+ */
+.btn {
+
+    border-color: transparent !important;
+    transition: background-color .5s;
+    line-height: 1 !important;
+    padding: 20px !important;
+
+    &.btn-primary {
+        background-color: $green;
+        color: $white;
+    }
+
+    &.btn-default {
+        background-color: $light-grey;
+        color: $black;
+    }
+
+    &.big {
+        font-size: 2.5em;
+    }
+
+    &.call-to-action {
+        font-size: 4em;
+        background-color: $red;
+    }
+
+    &:hover, &.call-to-action:hover, &.btn-default:hover {
+        border-color: transparent !important;
+        background-color: $navy-blue;
+    }
+}
+
+/**
+ * Forms
+ */
+input[type="button"], textarea {
+    font-size: 22px !important;
+}
+
+
+/**
+ * Useful
+ */
+.center {
+    text-align: center;
+}
+
+.spacer {
+    display: block;
+    height: $spacing-unit;
+}
+
+

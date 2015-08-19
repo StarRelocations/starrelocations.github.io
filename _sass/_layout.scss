@@ -1,3 +1,148 @@
 /**
- * Pages specific styling goes here
+ * Structure
  */
+#wrapper {
+	max-width: 1280px;
+	margin: 0px auto;
+}
+
+/**
+ * Header
+ */
+header {
+
+	background-color: $black;
+	padding: 20px;
+
+	#logo {
+		display: block;
+		padding: 8px;
+		margin: auto;
+		max-height: 135px;
+	}
+
+	nav {
+		max-height: 185px;
+
+		ul {
+			list-style-type: none;
+			margin: 0px;
+			padding-top: 15px;
+
+			// remove left padding from first link
+			li:first-of-type a {
+				margin-left: 0px;
+			}
+
+			li {
+				display: inline;
+
+				a {
+					color: #ffffff !important;
+					font-size: 4.5em;
+					margin-left: 20px;
+					text-decoration: none;
+
+					&:active, &:visited {
+						text-decoration: none;
+					}
+
+					&:hover {
+						text-decoration: none;
+						color: $light-grey;
+					}
+						
+				}
+			}
+
+		}
+	}
+
+}
+
+.jumbotron {
+	width: 100%;
+	background-color: $light-grey;
+	padding: 40px 20px;
+	margin: 0px;
+	text-align: center;
+
+	h1 {
+		color: $navy-blue;
+		font-size: 4em;
+		line-height: 80px;
+		margin: 0px;
+		padding: 0px;
+	}
+}
+
+#banner {
+	width: 100%;
+}
+
+#features-benefits
+{
+	margin-top: 25px;
+	margin-bottom: 50px;
+
+	h2 {
+		text-align: center;
+		font-size: 4.5em;
+		margin-left: 42px;
+	}
+
+	h3 {
+		font-size: 3em;
+		margin-bottom: 0px;
+		margin-top: 25px;
+	}
+
+	p {
+		margin-left: 47px;
+		font-size: 1.8em;
+		color: $dark-grey;
+	}
+
+	.row:first-of-type h3 {
+		margin-top: 0px;
+	}
+}
+
+#features-benefits h3, footer h3 {
+	font-size: 3em;
+	margin-bottom: 0px;
+	margin-top: 25px;
+}
+
+img.tick {
+	width: 28px;
+	margin-top: 9px;
+	vertical-align: top;
+	margin-right: 15px;
+}
+
+img.question-mark {
+	width: 19px;
+	margin-top: 6px;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+.narrow {
+	width: 800px;
+	margin: auto;
+}
+
+.text {
+	font-size: 22px;
+}
+
+form#contact {
+	input[type="submit"] {
+		font-size: 1.5em !important;
+	}
+}
+
+.faq p {
+	padding-left: 35px;
+}

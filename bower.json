@@ -21,6 +21,7 @@
   ],
   "dependencies": {
     "bootstrap": "latest",
-    "jquery": "latest"
+    "jquery": "latest",
+    "bootstrapvalidator": "git@github.com:nghuuphuoc/bootstrapvalidator.git"
   }
 }

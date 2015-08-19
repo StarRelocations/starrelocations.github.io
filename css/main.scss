@@ -4,18 +4,26 @@
 @charset "utf-8";
 
 
+// colours
+$green:				#71d161;
+$navy-blue: 	   	#26334a;
+$light-grey:	 	#e2e2e2;
+$black: 			#111111;
+$dark-grey:	   		darken($light-grey, 35%);
+$red:			   	#b62530;
+$white:			   	#ffffff;
 
 // Our variables
 $base-font-family: Sakkal Majalla, Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
-
+$background-color: $white;
 $spacing-unit:     30px;
 
-$text-color:       #111;
+// text
+$text-color:       $black;
 $link-color:       #ff00ff;
-$background-color: #ffffff;
 
 // Width of the content area
 $content-width:    800px;
@@ -28,15 +36,16 @@ $content-width:    800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+	@media screen and (max-width: $device) {
+		@content;
+	}
 }
 
-
+// import bootstrap
+@import "bootstrap/_bootstrap";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout"
+		"base",
+		"layout"
 ;
