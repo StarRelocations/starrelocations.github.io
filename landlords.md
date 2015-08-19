@@ -72,7 +72,7 @@ permalink: /landlords/
 	<div class="col-md-12">
 		<h2>
 			<img class="question-mark" src="/images/question-mark.png" />
-			who pays for normal wear and tear maintenance?
+			Who pays for normal wear and tear maintenance?
 		</h2>
 		<p>Regular wear and tear that occurs as a result of a normal tenancy (and not a result from direct damage or negligence) is paid by you the landlord. As your property managers however, we will take care of the replacement, getting quotations, and supply you with justifications and proof of the expense.</p>
 	</div>
@@ -90,9 +90,9 @@ permalink: /landlords/
 	<div class="col-md-12">
 		<h2>
 			<img class="question-mark" src="/images/question-mark.png" />
-			what access will I as the landlord have to the property? 
+			What access will I as the landlord have to the property? 
 		</h2>
-		<p>If you want you can go years without having to step foot in the property. If you would like more control, you will be entitled to quarterly inspections throughout the building. It all depends on how much responsibility you want to take on.</p>
+		<p>If you want you can go years without having to step foot in the property. If you would like more control, you will be entitled to quarterly inspections. It all depends on how much responsibility you want to take on.</p>
 	</div>
 </div>
 <div class="row">
@@ -101,7 +101,7 @@ permalink: /landlords/
 			<img class="question-mark" src="/images/question-mark.png" />
 			What kind of tenants do you put in the property?
 		</h2>
-		<p>We only take on professionals, and sometimes mature students. The reason we limit ourselves to this demographic is because they cause fewer problems and generally have more respect for the property. Our goal is to have a tenancy that goes as smooth as possible.</p>
+		<p>We only take on professionals, and sometimes mature students. The reason we limit ourselves to this demographic is because they cause fewer problems and generally have more respect for the property. Our goal is to have a tenancy that goes as smoothly as possible.</p>
 	</div>
 </div>
 <div class="row">
